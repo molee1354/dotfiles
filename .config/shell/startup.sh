@@ -4,9 +4,9 @@
 picom -b --config $HOME/.config/picom/picom.conf 
 
 # startup scripts
-ROOT="$HOME/.config/shell/scripts"
-for startup_script in ${ROOT}/*; do
-    if [[ ${startup_script} == ${ROOT}/"nightlight.sh" ]]; then
+SCRIPTS="$HOME/.config/shell/scripts"
+for startup_script in ${SCRIPTS}/*; do
+    if [[ ${startup_script} == ${SCRIPTS}/"nightlight.sh" ]]; then
         continue
     fi
     . ${startup_script}
