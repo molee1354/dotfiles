@@ -1,0 +1,6 @@
+BasedOnStyle: LLVM
+Language: Cpp
+UseTab: Never
+IndentWidth: 4
+PointerAlignment: Left
+# AlignConsecutiveAssignments: true

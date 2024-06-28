@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set wallpaper
-feh --bg-scale $HOME/Pictures/lock.jpg
+feh --bg-scale $HOME/Pictures/mountain.jpg
 
 # set refresh rates
 function set_dual() {

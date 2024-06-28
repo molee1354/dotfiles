@@ -1,5 +1,6 @@
 return {
-    'VonHeikemen/lsp-zero.nvim', branch = 'v3.x',
+    'VonHeikemen/lsp-zero.nvim',
+    branch = 'v3.x',
     dependencies = {
         'williamboman/mason.nvim',
         'williamboman/mason-lspconfig.nvim',
@@ -13,7 +14,7 @@ return {
     config = function()
         local lsp_zero = require('lsp-zero')
         lsp_zero.on_attach(function(client, bufnr)
-            local opts = {buffer = bufnr, remap = false}
+            local opts = { buffer = bufnr, remap = false }
             vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
             vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
             vim.keymap.set("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
@@ -29,8 +30,8 @@ return {
         require('fidget').setup()
         require("luasnip.loaders.from_vscode").lazy_load()
         local ls = require('luasnip')
-        vim.keymap.set({"i", "s"}, "<C-L>", function() ls.jump( 1) end, {silent = true})
-        vim.keymap.set({"i", "s"}, "<C-H>", function() ls.jump(-1) end, {silent = true})
+        vim.keymap.set({ "i", "s" }, "<C-L>", function() ls.jump(1) end, { silent = true })
+        vim.keymap.set({ "i", "s" }, "<C-H>", function() ls.jump(-1) end, { silent = true })
 
 
         require('mason').setup()
@@ -51,15 +52,15 @@ return {
         })
 
         local cmp = require('cmp')
-        local cmp_select = {behavior = cmp.SelectBehavior.Select}
+        local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
         cmp.setup({
             sources = {
-                {name = 'path'},
-                {name = 'nvim_lsp'},
-                {name = 'nvim_lua'},
-                {name = 'luasnip', keyword_length = 2},
-                {name = 'buffer', keyword_length = 3},
+                { name = 'path' },
+                { name = 'nvim_lsp' },
+                { name = 'nvim_lua' },
+                { name = 'luasnip', keyword_length = 2 },
+                { name = 'buffer',  keyword_length = 3 },
             },
             formatting = lsp_zero.cmp_format(),
             mapping = cmp.mapping.preset.insert({
