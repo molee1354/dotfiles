@@ -1,4 +1,4 @@
-local color = "nightfly"
+local color = "tokyonight"
 if color == "rose-pine" then
     return {
         "rose-pine/neovim",
@@ -49,6 +49,20 @@ elseif color == "catppuccin" then
                 flavour = "mocha"
             })
             vim.cmd("colors catppuccin")
+        end
+    }
+elseif color == "tokyonight" then
+    return {
+        "folke/tokyonight.nvim",
+        name = "tokyonight",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+        config = function()
+            require("tokyonight").setup({
+                style = "moon",
+            })
+            vim.cmd("colorscheme tokyonight")
         end
     }
 end
