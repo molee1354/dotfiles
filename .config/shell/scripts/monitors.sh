@@ -13,10 +13,10 @@ function set_dual() {
 }
 
 function set_wide() {
-    # xrandr --output HDMI-1 --mode 2560x1080 --rate 100.00
-    # xrandr --output eDP-1 --off
-    xrandr --output HDMI-1 --primary --mode 1920x1080 --rate 74.97 --left-of eDP-1
-    xrandr --output eDP-1  --on
+    xrandr --output HDMI-1 --mode 2560x1080 --rate 100.00
+    xrandr --output eDP-1 --off
+    # xrandr --output HDMI-1 --primary --mode 1920x1080 --rate 74.97 --left-of eDP-1
+    # xrandr --output eDP-1  --on
 }
 
 # check count
