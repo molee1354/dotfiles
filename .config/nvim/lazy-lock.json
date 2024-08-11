@@ -13,6 +13,7 @@
   "mason-lspconfig.nvim": { "branch": "main", "commit": "62360f061d45177dda8afc1b0fd1327328540301" },
   "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
   "neogen": { "branch": "main", "commit": "4b22542b96712a5a901fa909b7dc749251ae1625" },
+  "nightfly": { "branch": "master", "commit": "19efaf31cbe15a429cb3ca6ac9c9fce13275045b" },
   "nvim-cmp": { "branch": "main", "commit": "ae644feb7b67bf1ce4260c231d1d4300b19c6f30" },
   "nvim-lspconfig": { "branch": "master", "commit": "ff97d376b1d22b2eaf9274605531babf0cd0cf21" },
   "nvim-treesitter": { "branch": "master", "commit": "8a966f32c973511f9697264b3533e9846d29fd09" },
@@ -21,7 +22,6 @@
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
   "tagbar": { "branch": "master", "commit": "d55d454bd3d5b027ebf0e8c75b8f88e4eddad8d8" },
   "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
-  "tokyonight": { "branch": "main", "commit": "b0e7c7382a7e8f6456f2a95655983993ffda745e" },
   "trouble.nvim": { "branch": "main", "commit": "6efc446226679fda0547c0fd6a7892fd5f5b15d8" },
   "undotree": { "branch": "master", "commit": "56c684a805fe948936cda0d1b19505b84ad7e065" },
   "vim-fugitive": { "branch": "master", "commit": "0444df68cd1cdabc7453d6bd84099458327e5513" }

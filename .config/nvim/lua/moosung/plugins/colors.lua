@@ -1,4 +1,4 @@
-local color = "tokyonight"
+local color = "nightfly"
 if color == "rose-pine" then
     return {
         "rose-pine/neovim",

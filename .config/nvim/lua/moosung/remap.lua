@@ -14,6 +14,8 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "<leader>pv", ":Exp<CR>")
 vim.keymap.set("n", "<leader>e", ":e<CR>")
 
+vim.keymap.set("n", "<leader>ts", ":TSContextToggle<CR>")
+
 -- LSP configs
 vim.api.nvim_create_autocmd('LspAttach', {
   group = vim.api.nvim_create_augroup('UserLspConfig', {}),

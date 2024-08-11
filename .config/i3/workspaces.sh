@@ -1,4 +1,4 @@
-TERMINAL="alacritty"
+TERMINAL="kitty"
 BROWSER="${HOME}/.local/bin/firefox"
 
 i3-msg "workspace 1; exec ${TERMINAL}"
