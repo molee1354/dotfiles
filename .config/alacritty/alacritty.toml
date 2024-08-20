@@ -1,5 +1,5 @@
 # Theme
-import = ["~/.config/alacritty/themes/tokyonight_moon.toml"]
+import = ["~/.config/alacritty/themes/nightfly.toml"]
 
 [font]
 size = 9.0
