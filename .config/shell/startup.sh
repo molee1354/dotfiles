@@ -15,7 +15,5 @@ done
 # polybar launch
 $HOME/.config/polybar/launch.sh
 
-# python3 $HOME/work.py
-
 # set system tray network status icon
 nm-applet
