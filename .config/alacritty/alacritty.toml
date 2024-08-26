@@ -2,11 +2,11 @@
 import = ["~/.config/alacritty/themes/nightfly.toml"]
 
 [font]
-size = 9.0
+size = 14.0
 
 [font.normal]
-family = "JetBrains Mono NerdFont"
 style = "Medium"
+family = "JetBrains Mono NerdFont"
 
 [font.bold]
 family = "JetBrains Mono NerdFont"
@@ -22,3 +22,6 @@ y = 2
 
 [cursor.style]
 blinking = "on"
+
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
