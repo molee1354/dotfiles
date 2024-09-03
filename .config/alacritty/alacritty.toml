@@ -1,5 +1,5 @@
 # Theme
-import = ["~/.config/alacritty/themes/nightfly.toml"]
+import = ["~/.config/alacritty/themes/rose-pine-moon.toml"]
 
 [font]
 size = 14.0
@@ -25,3 +25,4 @@ blinking = "on"
 
 [env]
 WINIT_X11_SCALE_FACTOR = "1.0"
+TERM = "xterm-256color"

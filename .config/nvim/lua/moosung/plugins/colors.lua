@@ -1,10 +1,11 @@
-local color = "nightfly"
+local color = "rose-pine"
 if color == "rose-pine" then
     return {
         "rose-pine/neovim",
         name = "rose-pine",
         config = function()
             require('rose-pine').setup({
+                -- variant = 'dawn',
                 variant = 'moon',
                 styles = {
                     italic = false,
@@ -46,7 +47,7 @@ elseif color == "catppuccin" then
         priority = 1000,
         config = function()
             require("catppuccin").setup({
-                flavour = "mocha"
+                flavour = "latte"
             })
             vim.cmd("colors catppuccin")
         end

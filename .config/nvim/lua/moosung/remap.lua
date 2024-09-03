@@ -11,8 +11,12 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+-- Leader-type key configs
 vim.keymap.set("n", "<leader>pv", ":Exp<CR>")
 vim.keymap.set("n", "<leader>e", ":e<CR>")
+vim.keymap.set("v", "<leader>yy", "\"+y")
+vim.keymap.set("n", "<leader>pp", "\"+p")
+vim.keymap.set("v", "<leader>pp", "\"+p")
 
 vim.keymap.set("n", "<leader>ts", ":TSContextToggle<CR>")
 
