@@ -19,9 +19,10 @@
 #: heavy. Setting them manually is useful for font families that have
 #: many weight variants like Book, Medium, Thick, etc. For example::
 
-font_family      JetBrainsMono NF Regular
-bold_font        JetBrainsMono NF SemiBold
+font_family      JetBrainsMono NF Medium
+bold_font        JetBrainsMono NF Bold
 italic_font      JetBrainsMono NF Italic
+bold_italic_font JetBrainsMono NF Bold Italic
 #
 # font_family      FiraCode Nerd Font Reg
 # bold_font        FiraCode Nerd Font SemBd
