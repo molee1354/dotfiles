@@ -8,7 +8,12 @@ alias vim=$(which nvim)
 alias clip="xclip -sel clip"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+
+# tmux related 
 alias tns="tmux -f $HOME/dotfiles/.config/tmux/tmux.conf new -s"
+alias tks="tmux kill-session -t"
+alias tas="tmux attach-session -t"
+alias tls="tmux ls"
 
 alias open="xdg-open"
 
