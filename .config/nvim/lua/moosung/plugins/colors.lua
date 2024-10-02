@@ -61,7 +61,7 @@ elseif color == "tokyonight" then
         opts = {},
         config = function()
             require("tokyonight").setup({
-                style = "moon",
+                style = "night",
             })
             vim.cmd("colorscheme tokyonight")
         end
