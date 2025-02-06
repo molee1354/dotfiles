@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set wallpaper
-feh --bg-scale $HOME/Pictures/mountain.jpg
+feh --bg-scale /home/moosung/Pictures/macbg.png
 
 # set refresh rates
 function set_dual() {
@@ -13,8 +13,14 @@ function set_dual() {
 }
 
 function set_wide() {
+    # home mode
     xrandr --output HDMI-1 --mode 2560x1080 --rate 100.00
-    xrandr --output eDP-1 --off
+    # xrandr --output eDP-1 --off
+
+    # office mode
+    # xrandr --output HDMI-1 --mode 3440x1440 --rate 60.00
+    # xrandr --output eDP-1 --off
+
     # xrandr --output HDMI-1 --primary --mode 1920x1080 --rate 74.97 --left-of eDP-1
     # xrandr --output eDP-1  --on
 }
