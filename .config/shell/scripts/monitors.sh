@@ -26,9 +26,10 @@ function set_wide() {
 }
 
 # check count
-COUNT=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
-if [[ $COUNT -eq 2 ]]; then
-    set_wide
-else
-    xrandr --auto
-fi
+# COUNT=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
+# if [[ $COUNT -eq 2 ]]; then
+#     set_wide
+# else
+#     xrandr --auto
+# fi
+set_wide
